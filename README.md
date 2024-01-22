@@ -21,7 +21,7 @@ This project simulates a simple application where information about a restaurant
 The objective of this program is to demonstrate the following: 
 * show a basic understanding of classes and how they work, including the init constructor, setters, and getters
 * utilize packages to organize classes and functions in different directories
-* introduce the concept of encapsulation into a simple program and work with attributes that are private to the user
+* introduce the concept of encapsulation in this simple program and work with attributes that are made private to the user
 
 In this program, the user can enter anything, even when prompted with entering an integer menu selection, and the program will still function as intended. 
 
