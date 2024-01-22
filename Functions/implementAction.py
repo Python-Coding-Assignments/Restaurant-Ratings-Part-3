@@ -28,7 +28,7 @@ def implementAction(restaurants, action):
         #calling addRating function to add a rating to the specified restaurant
         amendRatings.amendRatings(restaurants[index])
 
-    #conditional statement which checks if user's input is either "d" or "D"
+    #conditional statement which checks if user's input is either "d", "D", "e", or "E"
     elif action == "d" or action == "D" or action == "e" or action == "E":
         print()
         #getting a valid restaurant index from user by calling validIndex function
