@@ -37,6 +37,8 @@ def implementAction(restaurants, action):
         ratingIndex = validIndex.validIndex(restaurants[index], "number of ratings") 
         #calling displayIndexRating function to display a rating at the specified restaurant and at the specified index
         displayIndexRating.displayIndexRating(restaurants[index], ratingIndex)
+
+        #conditional statement which checks if user's input is either "e" or "E"
         if action == "e" or action == "E":
             #calling addRating function to add a rating to the specified restaurant
             amendRatings.amendRatings(restaurants[index], ratingIndex)     
